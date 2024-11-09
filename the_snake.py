@@ -158,7 +158,7 @@ def handle_keys(snake):
             pygame.quit()
             exit()
 
-        if event.type == pygame.KEYDOWN: 
+        if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP and snake.direction != DOWN:
                 snake.next_direction = UP
             elif event.key == pygame.K_DOWN and snake.direction != UP:
